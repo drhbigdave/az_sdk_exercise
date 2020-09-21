@@ -5,6 +5,7 @@ module "python_sdk_exercises" {
   davids_home_ip_secret_name     = "davids-home-ip"
   shanikas_home_ip_secret_name   = "shanikas-home-ip"
   rg1_name                       = "19sep20blob"
+  git_repo_tag = "https://github.com/drhbigdave/az_sdk_exercise"
   rg1_location                   = "East US"
   sa1_name                       = "pythonexercies"
   environment_tag                = "azure_sdk"
